@@ -1,0 +1,35 @@
+.mainBlock {
+    min-height: 100vh;
+    background-color: aquamarine;
+    padding: 90px 0 9px 0;
+font-size: 18px;
+
+}
+
+
+.salutation {
+
+    max-width: 350px;
+    background-color: coral;
+    margin-right: 5px;
+}
+
+.avatar {
+    width: 300px;
+    height: 400px;
+    background-color: coral;
+    border: 2px solid;
+    margin: 0 auto;
+}
+
+@media (max-width: 830px){
+    .mainBlock {
+        /*padding: 90px 0 9px 0;*/
+        font-size: 24px;
+    }
+    .salutation {
+
+        max-width: 100%;
+}
+}
+

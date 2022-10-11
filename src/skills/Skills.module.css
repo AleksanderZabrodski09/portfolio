@@ -1,0 +1,33 @@
+.skillsBlock {
+    background-color: hotpink;
+    /*min-height: 80vh;*/
+    display: flex;
+    padding: 80px 0;
+}
+
+.skillsContainer {
+    /*align-items: flex-start;*/
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.titleBigSkills {
+    background-color: aqua;
+    margin: 20px 0 40px;
+}
+
+.skillsWrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+
+@media (max-width: 626px) {
+    .skillsWrap {
+        justify-content: center;
+    }
+}

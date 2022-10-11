@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: antiquewhite;
+  height: 80px;
+}
+
+.headerFixed{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+
+@media (max-width: 767px){
+  .header {
+    justify-content: space-between;
+  }
+}
